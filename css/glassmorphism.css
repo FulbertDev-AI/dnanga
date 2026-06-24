@@ -1,0 +1,93 @@
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) 1;
+  position: relative;
+}
+
+[data-theme="light"] .glass {
+  background: rgba(255, 255, 255, 0.8);
+  border-image: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.1) 0%,
+    rgba(100, 116, 139, 0.1) 100%
+  ) 1;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: var(--radius);
+  padding: var(--stack-md);
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) 1;
+  transition: all var(--transition-base) linear-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.05) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+[data-theme="light"] .glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-image: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.1) 0%,
+    rgba(100, 116, 139, 0.1) 100%
+  ) 1;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.glass-card:hover {
+  border-image: linear-gradient(
+    135deg,
+    rgba(78, 222, 163, 0.3) 0%,
+    rgba(173, 198, 255, 0.2) 100%
+  ) 1;
+  transform: translateY(-2px);
+}
+
+[data-theme="light"] .glass-card:hover {
+  border-image: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.3) 0%,
+    rgba(86, 94, 116, 0.2) 100%
+  ) 1;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.08);
+}
+
+.glass-nav {
+  background: rgba(16, 20, 21, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] .glass-nav {
+  background: rgba(248, 249, 255, 0.8);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+}
