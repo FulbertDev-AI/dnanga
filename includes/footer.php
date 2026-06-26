@@ -2,7 +2,7 @@
     <div class="container">
         <div class="grid grid-3">
             <div>
-                <h3 style="margin-bottom: var(--stack-sm);">Global Tech Steward</h3>
+                <h3 style="margin-bottom: var(--stack-sm);">NANGA Ditorga</h3>
                 <p style="color: var(--on-surface-variant); font-size: 14px;">
                     <?php echo $t['footer_made_with']; ?>
                 </p>

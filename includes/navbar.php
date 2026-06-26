@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="flex items-center justify-between">
             <a href="index.php?lang=<?php echo $current_lang; ?>" class="flex items-center gap-sm">
                 <div style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden; background: var(--surface-container); border: 2px solid var(--secondary);">
-                    <img src="images/ta-photo.jpg" alt="NANGA Ditorga" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="images/Nanga_ditorga.jpeg" alt="NANGA Ditorga" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <span style="font-family: var(--font-headline); font-size: 18px; font-weight: 700; color: var(--on-background);">
                     NANGA Ditorga

@@ -38,10 +38,10 @@ include 'includes/navbar.php';
                 <!-- Photo -->
                 <div class="fade-in" style="position: relative;">
                     <div class="glass-card" style="padding: 0; overflow: hidden; border: 1px solid var(--outline-variant);">
-                        <div style="width: 60%; aspect-ratio: 1/1.1; background: var(--surface-container); position: relative;">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=550&fit=crop" 
+                        <div style="width: 100%; aspect-ratio: 4/5; background: var(--surface-container); position: relative; max-height: 430px;">
+                            <img src="images/Nanga_ditorga.jpeg" 
                                 alt="NANGA Ditorga" 
-                                style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%);">
+                                style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
                         </div>
                         <div style="padding: 16px; text-align: center; background: var(--surface-container); border-top: 1px solid var(--outline-variant);">
                             <p style="font-family: var(--font-headline); font-size: 24px; font-weight: 700; color: var(--on-background); letter-spacing: 0.5px;">
@@ -271,18 +271,18 @@ include 'includes/navbar.php';
                 <!-- Project 1 -->
                 <div class="glass-card project-card fade-in" style="padding: 0; overflow: hidden;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" 
+                        <img src="images/Portfolio.png" 
                              alt="GreenCredit Ledger" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: 20px;">
                         <div class="flex gap-sm" style="margin-bottom: 12px; flex-wrap: wrap;">
-                            <span class="chip">React & Three.js</span>
-                            <span class="chip">Carbon FinTech</span>
+                            <span class="chip">React & PHP/Laravel</span>
+                            <span class="chip">Portfolio</span>
                         </div>
                         <h3 style="margin-bottom: 12px; font-size: 19px;"><?php echo $t['project_1_title']; ?></h3>
                         <p style="margin-bottom: 16px; color: var(--on-surface-variant); font-size: 14px; line-height: 1.5;"><?php echo $t['project_1_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
+                        <a href="https://dnanga.wasmer.app/" target="_blank" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
                             <?php echo $t['project_1_cta']; ?>
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </a>
@@ -292,18 +292,18 @@ include 'includes/navbar.php';
                 <!-- Project 2 -->
                 <div class="glass-card project-card fade-in" style="padding: 0; overflow: hidden;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop" 
+                        <img src="images/sara_farms.png" 
                              alt="EcoOptima AI" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: 20px;">
                         <div class="flex gap-sm" style="margin-bottom: 12px; flex-wrap: wrap;">
-                            <span class="chip">Python & TensorFlow</span>
-                            <span class="chip">Energy AI</span>
+                            <span class="chip">HTML/CSS/JS & PHP</span>
+                            <span class="chip">Agriculture</span>
                         </div>
                         <h3 style="margin-bottom: 12px; font-size: 19px;"><?php echo $t['project_2_title']; ?></h3>
                         <p style="margin-bottom: 16px; color: var(--on-surface-variant); font-size: 14px; line-height: 1.5;"><?php echo $t['project_2_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
+                        <a href="https://github.com/FulbertDev-AI/Sara_Farms.git" target="_blank" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
                             <?php echo $t['project_2_cta']; ?>
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </a>
@@ -313,14 +313,14 @@ include 'includes/navbar.php';
                 <!-- Project 3 -->
                 <div class="glass-card project-card fade-in" style="padding: 0; overflow: hidden;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop" 
+                        <img src="images/greenguard_cli.png" 
                              alt="IronCore API Gateway" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: 20px;">
                         <div class="flex gap-sm" style="margin-bottom: 12px; flex-wrap: wrap;">
-                            <span class="chip">Rust & WASM</span>
-                            <span class="chip">System Architecture</span>
+                            <span class="chip">Rust & Go</span>
+                            <span class="chip">Climate Tech</span>
                         </div>
                         <h3 style="margin-bottom: 12px; font-size: 19px;"><?php echo $t['project_3_title']; ?></h3>
                         <p style="margin-bottom: 16px; color: var(--on-surface-variant); font-size: 14px; line-height: 1.5;"><?php echo $t['project_3_desc']; ?></p>

@@ -36,17 +36,17 @@ include 'includes/navbar.php';
                 <!-- Projet 1 -->
                 <div class="glass-card project-card" data-category="climate renewable" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop" 
+                        <img src="images/Portfolio.png" 
                              alt="Smart Grid" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
-                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                        <!-- <div class="chip" style="margin-bottom: var(--stack-sm);">
                             <?php echo $t['project_1_tags']; ?>
-                        </div>
+                        </div> -->
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_1_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_1_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://dnanga.wasmer.app/" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
@@ -55,7 +55,7 @@ include 'includes/navbar.php';
                 <!-- Projet 2 -->
                 <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" 
+                        <img src="images/sara_farms.png" 
                              alt="Cloud Infrastructure" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
@@ -65,7 +65,7 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_2_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_2_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://github.com/FulbertDev-AI/Sara_Farms.git" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
@@ -74,9 +74,11 @@ include 'includes/navbar.php';
                 <!-- Projet 3 -->
                 <div class="glass-card project-card" data-category="climate" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" 
+                        <img src="Images/greenguard_cli.png" 
                              alt="Carbon Tracking" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                            alt="Carbon Tracking" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
                         <div class="chip" style="margin-bottom: var(--stack-sm);">
