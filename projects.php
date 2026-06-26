@@ -189,7 +189,7 @@ include 'includes/navbar.php';
 }
 
 .project-card.hidden {
-    display: none;
+    display: none !important;
 }
 
 .project-card:hover img {

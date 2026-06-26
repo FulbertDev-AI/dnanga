@@ -79,8 +79,8 @@ include 'includes/navbar.php';
                         <div class="flex items-center gap-md" style="margin-bottom: var(--stack-sm);">
                             <div style="width: 48px; height: 48px; border-radius: 50%; overflow: hidden; background: var(--surface-container-high); flex-shrink: 0;">
                                 <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=100&h=100&fit=crop" 
-                                     alt="Lomé" 
-                                     style="width: 100%; height: 100%; object-fit: cover;">
+                                    alt="Lomé" 
+                                    style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
                             <div>
                                 <h3 style="font-size: 18px; margin-bottom: 4px;"><?php echo $t['contact_location_city']; ?></h3>
@@ -115,7 +115,7 @@ include 'includes/navbar.php';
                             <?php echo $t['contact_networks_title']; ?>
                         </p>
                         <div class="flex flex-col gap-sm">
-                            <a href="#" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
+                            <a href="https://www.linkedin.com/in/ditorga-nanga-7817a331a/" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
                                 <div class="flex items-center gap-md">
                                     <div style="width: 36px; height: 36px; background: rgba(59, 130, 246, 0.1); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
@@ -128,7 +128,7 @@ include 'includes/navbar.php';
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                             </a>
                             
-                            <a href="#" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
+                            <a href="https://github.com/FulbertDev-AI" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
                                 <div class="flex items-center gap-md">
                                     <div style="width: 36px; height: 36px; background: rgba(255, 255, 255, 0.05); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>

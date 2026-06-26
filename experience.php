@@ -126,7 +126,7 @@ include 'includes/navbar.php';
                         <a href="#" class="btn btn-primary">
                             <?php echo $t['exp_banner_cta_resume']; ?>
                         </a>
-                        <a href="#" class="btn btn-secondary">
+                        <a href="https://github.com/FulbertDev-AI" target="_blank" class="btn btn-secondary">
                             <?php echo $t['exp_banner_cta_github']; ?>
                         </a>
                     </div>
