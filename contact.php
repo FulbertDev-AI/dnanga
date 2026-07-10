@@ -110,51 +110,55 @@ include 'includes/navbar.php';
                     </div>
 
                     <!-- Carte 2 : Professional Networks -->
-                    <div class="glass-card" style="padding: var(--stack-md);">
-                        <p class="label" style="font-size: 11px; color: var(--on-surface-variant); margin-bottom: var(--stack-md);">
-                            <?php echo $t['contact_networks_title']; ?>
-                        </p>
-                        <div class="flex flex-col gap-sm">
-                            <a href="https://www.linkedin.com/in/ditorga-nanga-7817a331a/" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
-                                <div class="flex items-center gap-md">
-                                    <div style="width: 36px; height: 36px; background: rgba(59, 130, 246, 0.1); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                                    </div>
-                                    <div>
-                                        <p style="font-weight: 600; font-size: 14px; margin-bottom: 2px;"><?php echo $t['contact_linkedin_title']; ?></p>
-                                        <p class="text-sm" style="color: var(--on-surface-variant); font-size: 12px;"><?php echo $t['contact_linkedin_desc']; ?></p>
-                                    </div>
-                                </div>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                            
-                            <a href="https://github.com/FulbertDev-AI" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
-                                <div class="flex items-center gap-md">
-                                    <div style="width: 36px; height: 36px; background: rgba(255, 255, 255, 0.05); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-                                    </div>
-                                    <div>
-                                        <p style="font-weight: 600; font-size: 14px; margin-bottom: 2px;"><?php echo $t['contact_github_title']; ?></p>
-                                        <p class="text-sm" style="color: var(--on-surface-variant); font-size: 12px;"><?php echo $t['contact_github_desc']; ?></p>
-                                    </div>
-                                </div>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
+<div class="glass-card" style="padding: 24px;">
+    <p class="label" style="font-size: 11px; color: var(--on-surface-variant); margin-bottom: 16px;">
+        <?php echo $t['contact_networks_title']; ?>
+    </p>
+    <div class="flex flex-col" style="gap: 10px;">
+        <a href="https://www.linkedin.com/in/ditorga-nanga-7817a331a/" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 11px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
+            <div class="flex items-center" style="gap: 12px;">
+                <div style="width: 36px; height: 36px; background: rgba(59, 130, 246, 0.1); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                    <p style="font-weight: 600; font-size: 14px; margin-bottom: 2px;"><?php echo $t['contact_linkedin_title']; ?></p>
+                    <p class="text-sm" style="color: var(--on-surface-variant); font-size: 12px;"><?php echo $t['contact_linkedin_desc']; ?></p>
+                </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        
+        <a href="https://github.com/FulbertDev-AI" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 11px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
+            <div class="flex items-center" style="gap: 12px;">
+                <div style="width: 36px; height: 36px; background: rgba(255, 255, 255, 0.05); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div>
+                    <p style="font-weight: 600; font-size: 14px; margin-bottom: 2px;"><?php echo $t['contact_github_title']; ?></p>
+                    <p class="text-sm" style="color: var(--on-surface-variant); font-size: 12px;"><?php echo $t['contact_github_desc']; ?></p>
+                </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        
+        <a href="mailto:contact.fulbert@gmail.com" target="_blank" class="network-link" style="display: flex; align-items: center; justify-content: space-between; padding: 11px; background: var(--surface-container); border-radius: var(--radius); border: 1px solid var(--outline-variant); transition: all var(--transition-base); text-decoration: none;">
+            <div class="flex items-center" style="gap: 12px;">
+                <div style="width: 36px; height: 36px; background: rgba(78, 222, 163, 0.1); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </div>
+                <div>
+                    <p style="font-weight: 600; font-size: 14px; margin-bottom: 2px;"><?php echo $t['contact_email_title']; ?></p>
+                    <p class="text-sm" style="color: var(--on-surface-variant); font-size: 12px;"><?php echo $t['contact_email_desc']; ?></p>
+                </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--on-surface-variant)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+    </div>
+</div>
 
-                    <!-- Carte 3 : Direct Line -->
-                    <div class="glass-card direct-line-card" style="padding: var(--stack-md); background: rgba(78, 222, 163, 0.05); border-color: rgba(78, 222, 163, 0.2);">
-                        <p class="label" style="font-size: 11px; color: var(--secondary); margin-bottom: 8px;">
-                            <?php echo $t['contact_direct_title']; ?>
-                        </p>
-                        <h3 style="font-size: 20px; margin-bottom: 8px; color: var(--on-surface);">
-                            <?php echo $t['contact_direct_email']; ?>
-                        </h3>
-                        <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.5;">
-                            <?php echo $t['contact_direct_desc']; ?>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>

@@ -336,27 +336,70 @@ include 'includes/navbar.php';
 
     <!-- FINAL BANNER -->
     <section style="padding: 40px 0 60px;">
-        <div class="container">
-            <div class="fade-in" style="background: linear-gradient(135deg, #2d3133 0%, #1d2022 100%); border-radius: 24px; padding: 60px 40px; text-align: center; border: 1px solid var(--outline-variant);">
-                <h2 style="margin-bottom: 16px; font-size: 36px; letter-spacing: -0.02em; line-height: 1.2;">
-                    <span style="color: var(--on-background);"><?php echo $t['banner_title_1']; ?></span>
-                    <span style="color: var(--secondary);"> <?php echo $t['banner_title_2']; ?></span><br>
-                    <span style="color: var(--on-background);"><?php echo $t['banner_title_3']; ?></span>
-                </h2>
-                <p style="color: var(--on-surface-variant); max-width: 500px; margin: 0 auto 28px; font-size: 15px;">
-                    <?php echo $t['banner_desc']; ?>
-                </p>
-                <div class="flex justify-center gap-sm" style="flex-wrap: wrap;">
-                    <a href="contact.php?lang=<?php echo $current_lang; ?>" class="btn btn-primary" style="padding: 14px 28px;">
-                        <?php echo $t['banner_cta_call']; ?>
-                    </a>
-                    <a href="contact.php?lang=<?php echo $current_lang; ?>" class="btn btn-secondary" style="padding: 14px 28px; background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2);">
-                        <?php echo $t['banner_cta_contact']; ?>
-                    </a>
-                </div>
+    <div class="container">
+        <div class="fade-in" style="background: linear-gradient(135deg, var(--surface-container-high) 0%, var(--surface-container) 100%); border-radius: 24px; padding: 60px 40px; text-align: center; border: 1px solid var(--outline-variant);">
+            <h2 style="margin-bottom: 16px; font-size: 36px; letter-spacing: -0.02em; line-height: 1.2;">
+                <span style="color: var(--on-background);"><?php echo $t['banner_title_1']; ?></span>
+                <span style="color: var(--secondary);"> <?php echo $t['banner_title_2']; ?></span><br>
+                <span style="color: var(--on-background);"><?php echo $t['banner_title_3']; ?></span>
+            </h2>
+            <p style="color: var(--on-surface-variant); max-width: 500px; margin: 0 auto 28px; font-size: 15px;">
+                <?php echo $t['banner_desc']; ?>
+            </p>
+            <div class="flex justify-center gap-sm" style="flex-wrap: wrap;">
+                <a href="projects.php?lang=<?php echo $current_lang; ?>" class="btn btn-secondary" style="padding: 14px 28px;">
+                    <?php echo $t['banner_cta_projet']; ?>
+                </a>
+                <a href="contact.php?lang=<?php echo $current_lang; ?>" class="btn btn-secondary" style="padding: 14px 28px;">
+                    <?php echo $t['banner_cta_contact']; ?>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<style>
+<style>
+/* Mode sombre - fond plus foncé */
+[data-theme="dark"] .fade-in[style*="background: var(--surface-container)"] {
+    background: linear-gradient(135deg, #2d3133 0%, #1d2022 100%) !important;
+    border-color: var(--outline-variant);
+}
+
+/* Mode clair - fond plus clair */
+[data-theme="light"] .fade-in[style*="background: var(--surface-container)"] {
+    background: linear-gradient(135deg, #e5eeff 0%, #dce9ff 100%) !important;
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+/* Bouton primaire en mode clair - meilleur contraste */
+[data-theme="light"] .btn-primary {
+    background: var(--primary);
+    color: var(--on-primary);
+    border-color: var(--primary);
+}
+
+[data-theme="light"] .btn-primary:hover {
+    background: var(--primary-container);
+    color: var(--on-primary);
+    border-color: var(--primary-container);
+    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+}
+
+/* Bouton secondaire en mode clair */
+[data-theme="light"] .btn-secondary {
+    background: transparent;
+    color: var(--on-background);
+    border-color: var(--outline);
+}
+
+[data-theme="light"] .btn-secondary:hover {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+</style>
+</style>
 
 </main>
 
