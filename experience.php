@@ -123,7 +123,7 @@ include 'includes/navbar.php';
                         "<?php echo $t['exp_banner_quote']; ?>"
                     </p>
                     <div class="flex justify-center gap-sm" style="flex-wrap: wrap;">
-                        <a href="#" class="btn btn-primary">
+                        <a href="CV_NANGA_Ditorga.pdf" target="_blank" class="btn btn-primary">
                             <?php echo $t['exp_banner_cta_resume']; ?>
                         </a>
                         <a href="https://github.com/FulbertDev-AI" target="_blank" class="btn btn-secondary">

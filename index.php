@@ -29,7 +29,7 @@ include 'includes/navbar.php';
                             <?php echo $t['hero_cta_projects']; ?>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </a>
-                        <a href="#" class="btn btn-secondary">
+                        <a href="CV_NANGA_Ditorga.pdf" target="_blank" class="btn btn-secondary">
                             <?php echo $t['hero_cta_cv']; ?>
                         </a>
                     </div>

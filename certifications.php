@@ -38,8 +38,8 @@ include 'includes/navbar.php';
                 <!-- Cert 1 -->
                 <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b8?w=800&h=400&fit=crop" 
-                             alt="UX/UI Design" 
+                        <img src="images/Vice-lead TCC.png" 
+                             alt="Vice-lead TCC" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
@@ -64,7 +64,7 @@ include 'includes/navbar.php';
                 <!-- Cert 2 -->
                 <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop" 
+                        <img src="images/Apprenez la Programmation Orientée Objet avec Python.png" 
                              alt="Security" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
@@ -90,7 +90,7 @@ include 'includes/navbar.php';
                 <!-- Cert 3 -->
                 <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop" 
+                        <img src="images/gx-africa.png" 
                              alt="Agile Leadership" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
@@ -115,7 +115,7 @@ include 'includes/navbar.php';
                 <!-- Cert 4 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" 
+            <img src="images/html5-css3.png" 
                  alt="Cloud Architecture" 
                  style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
         </div>
@@ -141,7 +141,7 @@ include 'includes/navbar.php';
      <!-- Cert 5 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" 
+            <img src="images/css-sass.png" 
                  alt="Data Science" 
                  style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
         </div>
@@ -167,9 +167,9 @@ include 'includes/navbar.php';
     <!-- Cert 6 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
-            <img src="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=400&fit=crop" 
-                alt="DevOps" 
-                style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <img src="images/CSS, Bootstrap And JavaScript And Python Stack Course.png" 
+                 alt="Data Science" 
+                 style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
         </div>
         <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
             <h3 style="margin-bottom: 12px; font-size: 18px;"><?php echo $t['cert_6_title']; ?></h3>
@@ -184,6 +184,84 @@ include 'includes/navbar.php';
                     <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         <span><?php echo $t['cert_6_takeaway_2']; ?></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cert 7 -->
+    <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
+            <img src="images/React.png" 
+                 alt="" 
+                 style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+        </div>
+        <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+            <h3 style="margin-bottom: 12px; font-size: 18px;"><?php echo $t['cert_7_title']; ?></h3>
+            <p style="margin-bottom: var(--stack-md); flex: 1; font-size: 14px; color: var(--on-surface-variant);"><?php echo $t['cert_7_desc']; ?></p>
+            <div style="border-top: 1px solid var(--outline-variant); padding-top: var(--stack-sm);">
+                <p class="label" style="color: var(--secondary); margin-bottom: 12px; font-size: 11px;"><?php echo $t['key_takeaways']; ?></p>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_7_takeaway_1']; ?></span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_7_takeaway_2']; ?></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cert 8 -->
+    <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
+            <img src="images/tcp-ip.png" 
+                 alt="Data Science" 
+                 style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+        </div>
+        <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+            <h3 style="margin-bottom: 12px; font-size: 18px;"><?php echo $t['cert_8_title']; ?></h3>
+            <p style="margin-bottom: var(--stack-md); flex: 1; font-size: 14px; color: var(--on-surface-variant);"><?php echo $t['cert_8_desc']; ?></p>
+            <div style="border-top: 1px solid var(--outline-variant); padding-top: var(--stack-sm);">
+                <p class="label" style="color: var(--secondary); margin-bottom: 12px; font-size: 11px;"><?php echo $t['key_takeaways']; ?></p>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_8_takeaway_1']; ?></span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_8_takeaway_2']; ?></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cert 9 -->
+    <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
+            <img src="images/Maîtrisez les fondamentaux d'Excel.png" 
+                alt="DevOps" 
+                style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+        </div>
+        <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+            <h3 style="margin-bottom: 12px; font-size: 18px;"><?php echo $t['cert_9_title']; ?></h3>
+            <p style="margin-bottom: var(--stack-md); flex: 1; font-size: 14px; color: var(--on-surface-variant);"><?php echo $t['cert_9_desc']; ?></p>
+            <div style="border-top: 1px solid var(--outline-variant); padding-top: var(--stack-sm);">
+                <p class="label" style="color: var(--secondary); margin-bottom: 12px; font-size: 11px;"><?php echo $t['key_takeaways']; ?></p>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_9_takeaway_1']; ?></span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span><?php echo $t['cert_9_takeaway_2']; ?></span>
                     </div>
                 </div>
             </div>
@@ -236,7 +314,7 @@ include 'includes/navbar.php';
                 <!-- Stats : Certifications -->
                 <div class="glass-card stat-card" style="padding: var(--stack-md); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <div style="font-size: 48px; font-weight: 700; color: var(--secondary); line-height: 1; margin-bottom: 8px; font-family: var(--font-headline);">
-                        12+
+                        9+
                     </div>
                     <p class="label" style="color: var(--on-surface-variant); font-size: 11px; letter-spacing: 0.1em;">
                         <?php echo $t['stats_certifications']; ?>
@@ -246,7 +324,7 @@ include 'includes/navbar.php';
                 <!-- Stats : Awards -->
                 <div class="glass-card stat-card" style="padding: var(--stack-md); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <div style="font-size: 48px; font-weight: 700; color: var(--secondary); line-height: 1; margin-bottom: 8px; font-family: var(--font-headline);">
-                        05
+                        0
                     </div>
                     <p class="label" style="color: var(--on-surface-variant); font-size: 11px; letter-spacing: 0.1em;">
                         <?php echo $t['stats_awards']; ?>

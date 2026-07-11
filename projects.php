@@ -163,7 +163,7 @@ include 'includes/navbar.php';
                 <a href="contact.php?lang=<?php echo $current_lang; ?>" class="btn btn-primary">
                     <?php echo $t['banner_cta_contact']; ?>
                 </a>
-                <a href="#" class="btn btn-secondary">
+                <a href="CV_NANGA_Ditorga.pdf" target="_blank" class="btn btn-secondary">
                     <?php echo $t['banner_cta_cv']; ?>
                 </a>
             </div>
