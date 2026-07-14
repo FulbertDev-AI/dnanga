@@ -23,93 +23,123 @@ include 'includes/navbar.php';
                 <button class="btn btn-secondary filter-btn active" data-filter="all">
                     <?php echo $t['filter_all']; ?>
                 </button>
-                <button class="btn btn-secondary filter-btn" data-filter="digital">
-                    <?php echo $t['filter_digital']; ?>
+                <button class="btn btn-secondary filter-btn" data-filter="professional">
+                    <?php echo $t['filter_professional']; ?>
                 </button>
-                <button class="btn btn-secondary filter-btn" data-filter="climate">
-                    <?php echo $t['filter_climate_exp']; ?>
+                <button class="btn btn-secondary filter-btn" data-filter="volunteer">
+                    <?php echo $t['filter_volunteer']; ?>
                 </button>
             </div>
             
-            <!-- Timeline -->
-            <div class="timeline" id="experience-timeline" style="position: relative; max-width: 900px; margin: 0 auto;">
-                <!-- Ligne verticale -->
-                <div style="position: absolute; left: 50%; transform: translateX(-50%); width: 2px; height: 100%; background: linear-gradient(to bottom, var(--secondary), var(--tertiary));"></div>
+            <!-- Grille des expériences -->
+            <div class="grid grid-3" id="experience-grid" style="margin-bottom: var(--stack-lg);">
                 
-                <!-- Expérience 1 : Climate Tech -->
-                <div class="timeline-item" data-category="climate" style="position: relative; margin-bottom: var(--stack-sm);">
-                    <div class="glass-card" style="width: 45%; margin-left: auto; padding: 20px;">
-                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px;">
+                <!-- Expérience 1 : Professional -->
+                <div class="glass-card exp-card" data-category="professional" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content;">
                             <?php echo $t['exp_1_period']; ?>
                         </div>
-                        <h3 style="color: var(--secondary); margin-bottom: 4px; font-size: 18px;"><?php echo $t['exp_1_role']; ?></h3>
-                        <p style="font-weight: 600; margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_1_company']; ?></p>
-                        <p style="margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_1_desc']; ?></p>
-                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 12px;">
-                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px;">
-                                <strong style="color: var(--secondary);">Key Achievements:</strong><br>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_1_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_1_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_1_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
                                 <?php echo $t['exp_1_achievements']; ?>
                             </p>
                         </div>
                     </div>
-                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: var(--secondary); border-radius: 50%; border: 4px solid var(--surface);"></div>
                 </div>
                 
-                <!-- Expérience 2 : Digital Infrastructure -->
-                <div class="timeline-item" data-category="digital" style="position: relative; margin-bottom: var(--stack-sm);">
-                    <div class="glass-card" style="width: 45%; padding: 20px;">
-                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px;">
+                <!-- Expérience 2 : Professional -->
+                <div class="glass-card exp-card" data-category="professional" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content;">
                             <?php echo $t['exp_2_period']; ?>
                         </div>
-                        <h3 style="color: var(--tertiary); margin-bottom: 4px; font-size: 18px;"><?php echo $t['exp_2_role']; ?></h3>
-                        <p style="font-weight: 600; margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_2_company']; ?></p>
-                        <p style="margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_2_desc']; ?></p>
-                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 12px;">
-                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px;">
-                                <strong style="color: var(--tertiary);">Key Achievements:</strong><br>
+                        <h3 style="color: var(--tertiary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_2_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_2_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_2_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--tertiary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
                                 <?php echo $t['exp_2_achievements']; ?>
                             </p>
                         </div>
                     </div>
-                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: var(--tertiary); border-radius: 50%; border: 4px solid var(--surface);"></div>
                 </div>
                 
-                <!-- Expérience 3 : Climate Tech -->
-                <div class="timeline-item" data-category="climate" style="position: relative; margin-bottom: var(--stack-sm);">
-                    <div class="glass-card" style="width: 45%; margin-left: auto; padding: 20px;">
-                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px;">
+                <!-- Expérience 3 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content;">
                             <?php echo $t['exp_3_period']; ?>
                         </div>
-                        <h3 style="color: var(--secondary); margin-bottom: 4px; font-size: 18px;"><?php echo $t['exp_3_role']; ?></h3>
-                        <p style="font-weight: 600; margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_3_company']; ?></p>
-                        <p style="margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_3_desc']; ?></p>
-                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 12px;">
-                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px;">
-                                <strong style="color: var(--secondary);">Key Achievements:</strong><br>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_3_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_3_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_3_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
                                 <?php echo $t['exp_3_achievements']; ?>
                             </p>
                         </div>
                     </div>
-                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: var(--secondary); border-radius: 50%; border: 4px solid var(--surface);"></div>
                 </div>
                 
-                <!-- Expérience 4 : Digital Infrastructure -->
-                <div class="timeline-item" data-category="digital" style="position: relative; margin-bottom: var(--stack-sm);">
-                    <div class="glass-card" style="width: 45%; padding: 20px;">
-                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px;">
+                <!-- Expérience 4 : Professional -->
+                <div class="glass-card exp-card" data-category="professional" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content;">
                             <?php echo $t['exp_4_period']; ?>
                         </div>
-                        <h3 style="color: var(--tertiary); margin-bottom: 4px; font-size: 18px;"><?php echo $t['exp_4_role']; ?></h3>
-                        <p style="font-weight: 600; margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_4_company']; ?></p>
-                        <p style="margin-bottom: 12px; font-size: 14px;"><?php echo $t['exp_4_desc']; ?></p>
-                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 12px;">
-                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px;">
-                                <strong style="color: var(--tertiary);">Key Achievements:</strong><br>
+                        <h3 style="color: var(--tertiary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_4_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_4_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_4_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--tertiary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
                                 <?php echo $t['exp_4_achievements']; ?>
                             </p>
                         </div>
                     </div>
-                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: var(--tertiary); border-radius: 50%; border: 4px solid var(--surface);"></div>
+                </div>
+                
+                <!-- Expérience 5 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_5_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_5_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_5_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_5_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_5_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expérience 6 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_6_period']; ?>
+                        </div>
+                        <h3 style="color: var(--tertiary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_6_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_6_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_6_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--tertiary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_6_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -149,8 +179,16 @@ include 'includes/navbar.php';
     border-color: var(--primary);
 }
 
-.timeline-item.hidden {
-    display: none;
+.exp-card {
+    transition: all var(--transition-base) linear-out;
+}
+
+.exp-card.hidden {
+    display: none !important;
+}
+
+.exp-card:hover {
+    transform: translateY(-4px);
 }
 
 /* Bannière de durabilité avec fond distinct */
@@ -190,33 +228,14 @@ include 'includes/navbar.php';
     );
 }
 
-/* Responsive pour la timeline */
+/* Responsive */
 @media (max-width: 768px) {
-    .timeline > div:first-child {
-        display: none !important;
+    .grid-3 {
+        grid-template-columns: 1fr !important;
     }
     
-    .timeline-item {
-        margin-left: 0 !important;
-        padding-left: 0 !important;
-    }
-    
-    .timeline-item .glass-card {
-        width: 100% !important;
-        margin-left: 0 !important;
-        padding: 16px !important;
-    }
-    
-    .timeline-item > div:last-child {
-        display: none !important;
-    }
-    
-    .timeline-item h3 {
-        font-size: 16px !important;
-    }
-    
-    .timeline-item p {
-        font-size: 13px !important;
+    .exp-card {
+        padding: 20px !important;
     }
     
     .durability-banner {
@@ -238,12 +257,8 @@ include 'includes/navbar.php';
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .timeline-item .glass-card {
-        width: 45% !important;
-    }
-    
-    .durability-banner h2 {
-        font-size: 26px !important;
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 }
 </style>
@@ -251,7 +266,7 @@ include 'includes/navbar.php';
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('#exp-filters .filter-btn');
-    const timelineItems = document.querySelectorAll('.timeline-item');
+    const expCards = document.querySelectorAll('.exp-card');
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
@@ -260,11 +275,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
             const filter = this.getAttribute('data-filter');
             
-            timelineItems.forEach(item => {
-                if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                    item.classList.remove('hidden');
+            expCards.forEach(card => {
+                if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                    card.classList.remove('hidden');
                 } else {
-                    item.classList.add('hidden');
+                    card.classList.add('hidden');
                 }
             });
         });

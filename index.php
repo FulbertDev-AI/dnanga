@@ -313,7 +313,7 @@ include 'includes/navbar.php';
                 <!-- Project 3 -->
                 <div class="glass-card project-card fade-in" style="padding: 0; overflow: hidden;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="images/greenguard_cli.png" 
+                        <img src="images/zitro-cli.png" 
                              alt="IronCore API Gateway" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>

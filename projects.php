@@ -74,7 +74,7 @@ include 'includes/navbar.php';
                 <!-- Projet 3 -->
                 <div class="glass-card project-card" data-category="climate" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="Images/greenguard_cli.png" 
+                        <img src="images/zitro-cli.png" 
                              alt="Carbon Tracking" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                             alt="Carbon Tracking" 
