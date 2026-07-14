@@ -27,18 +27,18 @@ include 'includes/navbar.php';
                 <button class="btn btn-secondary filter-btn" data-filter="climate">
                     <?php echo $t['filter_climate']; ?>
                 </button>
-                <button class="btn btn-secondary filter-btn" data-filter="renewable">
+                <!-- <button class="btn btn-secondary filter-btn" data-filter="renewable">
                     <?php echo $t['filter_renewable']; ?>
-                </button>
+                </button> -->
             </div>
             
             <div class="grid grid-3" id="projects-grid">
                 <!-- Projet 1 -->
-                <div class="glass-card project-card" data-category="climate renewable" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
                         <img src="images/Portfolio.png" 
-                             alt="Smart Grid" 
-                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                            alt="Smart Grid" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
                         <!-- <div class="chip" style="margin-bottom: var(--stack-sm);">
@@ -93,11 +93,11 @@ include 'includes/navbar.php';
                 </div>
                 
                 <!-- Projet 4 -->
-                <div class="glass-card project-card" data-category="renewable" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop" 
-                             alt="Renewable Energy" 
-                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                        <img src="images/it-orientation.png" 
+                            alt="It-orientation" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
                         <div class="chip" style="margin-bottom: var(--stack-sm);">
@@ -105,7 +105,7 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_4_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_4_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://it-orientation.vercel.app/" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>

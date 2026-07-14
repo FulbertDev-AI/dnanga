@@ -5,11 +5,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <nav class="glass-nav" style="position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 16px 0;">
     <div class="container">
         <div class="flex items-center justify-between">
-            <a href="index.php?lang=<?php echo $current_lang; ?>" class="flex items-center gap-sm">
-                <div style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden; background: var(--surface-container); border: 2px solid var(--secondary);">
+            <a href="index.php?lang=<?php echo $current_lang; ?>" class="flex items-center gap-sm" style="text-decoration: none;">
+                <div style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden; background: var(--surface-container); border: 2px solid var(--secondary); flex-shrink: 0;">
                     <img src="images/Nanga_ditorga.jpeg" alt="NANGA Ditorga" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
-                <span style="font-family: var(--font-headline); font-size: 18px; font-weight: 700; color: var(--on-background);">
+                <!-- Ajout de user-select: none ici -->
+                <span style="font-family: var(--font-headline); font-size: 18px; font-weight: 700; color: var(--on-background); user-select: none; -webkit-user-select: none; cursor: default;">
                     NANGA Ditorga
                 </span>
             </a>

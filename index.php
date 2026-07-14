@@ -200,10 +200,10 @@ include 'includes/navbar.php';
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Rust" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_rust']; ?></span>
                         </div>
-                        <div class="tech-badge">
+                        <!-- <div class="tech-badge">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_django']; ?></span>
-                        </div>
+                        </div> -->
                         <div class="tech-badge">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP/Laravel" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_php']; ?></span>
@@ -216,18 +216,18 @@ include 'includes/navbar.php';
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_oracle']; ?></span>
                         </div>
-                        <div class="tech-badge">
+                        <!-- <div class="tech-badge">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java/Spring Boot" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_java']; ?></span>
-                        </div>
+                        </div> -->
                         <div class="tech-badge">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_postgresql']; ?></span>
                         </div>
-                        <div class="tech-badge">
+                        <!-- <div class="tech-badge">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Golang" style="width: 24px; height: 24px;">
                             <span><?php echo $t['stack_golang']; ?></span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 

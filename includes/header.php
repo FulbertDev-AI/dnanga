@@ -1,16 +1,17 @@
 <?php
 session_start();
 
-// Priorité : 1. GET parameter, 2. Session, 3. Cookie, 4. Default (en)
+// 1. Vérifier si une langue est demandée dans l'URL (?lang=fr)
 if (isset($_GET['lang']) && in_array($_GET['lang'], ['en', 'fr', 'es'])) {
     $current_lang = $_GET['lang'];
-    $_SESSION['lang'] = $current_lang;
-    setcookie('lang', $current_lang, time() + (365 * 24 * 60 * 60), '/');
-} elseif (isset($_SESSION['lang']) && in_array($_SESSION['lang'], ['en', 'fr', 'es'])) {
+    $_SESSION['lang'] = $current_lang; // Sauvegarde uniquement pour cet onglet/session
+} 
+// 2. Sinon, vérifier si une langue est déjà en session (navigation dans le même onglet)
+elseif (isset($_SESSION['lang']) && in_array($_SESSION['lang'], ['en', 'fr', 'es'])) {
     $current_lang = $_SESSION['lang'];
-} elseif (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], ['en', 'fr', 'es'])) {
-    $current_lang = $_COOKIE['lang'];
-} else {
+} 
+// 3. Par défaut : Anglais (pour tout nouvel onglet)
+else {
     $current_lang = 'en';
 }
 
