@@ -114,7 +114,7 @@ include 'includes/navbar.php';
                 <!-- Projet 5 -->
                 <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop" 
+                        <img src="images/komita.png" 
                              alt="Disaster Response" 
                              style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
@@ -124,18 +124,18 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_5_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_5_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://github.com/FulbertDev-AI/komita.git" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
                 </div>
                 
                 <!-- Projet 6 -->
-                <div class="glass-card project-card" data-category="infrastructure climate" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
-                        <img src="https://images.unsplash.com/photo-1558494949-ef506e0a5b66?w=800&h=400&fit=crop" 
-                             alt="Green Data Center" 
-                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                        <img src="images/citil.png" 
+                            alt="citil" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
                     </div>
                     <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
                         <div class="chip" style="margin-bottom: var(--stack-sm);">
@@ -143,7 +143,7 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_6_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_6_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://github.com/FulbertDev-AI/CITIL_F.git" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
