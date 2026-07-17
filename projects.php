@@ -148,6 +148,62 @@ include 'includes/navbar.php';
                         </a>
                     </div>
                 </div>
+                <!-- Projet 7 -->
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
+                        <img src="images/citil-tg.png" 
+                            alt="citil" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                            <?php echo $t['project_7_tags']; ?>
+                        </div>
+                        <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_7_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_7_desc']; ?></p>
+                        <a href="https://citil-tg.com/" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                            <?php echo $t['view_project']; ?>
+                        </a>
+                    </div>
+                </div>
+                <!-- Projet 8 -->
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
+                        <img src="images/estabat.png" 
+                            alt="ESTABAT" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                            <?php echo $t['project_8_tags']; ?>
+                        </div>
+                        <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_8_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_8_desc']; ?></p>
+                        <a href="https://www.estabat.org/" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                            <?php echo $t['view_project']; ?>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet 9 -->
+                <!-- <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
+                        <img src="" 
+                            alt="TAS" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                            <?php echo $t['project_9_tags']; ?>
+                        </div>
+                        <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_9_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_9_desc']; ?></p>
+                        <a href="https://github.com/FulbertDev-AI/CITIL_F.git" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                            <?php echo $t['view_project']; ?>
+                        </a>
+                    </div>
+                </div> -->
+                
             </div>
             
             <!-- Bannière de collaboration -->

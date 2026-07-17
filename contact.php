@@ -7,6 +7,32 @@ include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
+<?php
+// Afficher les messages de statut
+if (isset($_GET['status'])) {
+    if ($_GET['status'] === 'success') {
+        echo '<div style="background: #10B981; color: white; padding: 16px; border-radius: 8px; margin-bottom: 24px; text-align: center;">
+                Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.
+            </div>';
+    } elseif ($_GET['status'] === 'error') {
+        $message = isset($_GET['message']) ? $_GET['message'] : '';
+        $error_text = 'Une erreur est survenue. ';
+        
+        if ($message === 'missing_fields') {
+            $error_text .= 'Veuillez remplir tous les champs obligatoires.';
+        } elseif ($message === 'invalid_email') {
+            $error_text .= 'Veuillez entrer une adresse email valide.';
+        } elseif ($message === 'send_failed') {
+            $error_text .= 'Échec de l\'envoi. Veuillez réessayer ou me contacter directement par email.';
+        }
+        
+        echo '<div style="background: #EF4444; color: white; padding: 16px; border-radius: 8px; margin-bottom: 24px; text-align: center;">
+                ' . $error_text . '
+            </div>';
+    }
+}
+?>
+
 <main style="padding-top: 80px;">
     <section class="section">
         <div class="container">
@@ -28,7 +54,7 @@ include 'includes/navbar.php';
                     <h2 style="margin-bottom: var(--stack-md); font-size: 24px; color: var(--secondary);">
                         <?php echo $t['contact_form_title']; ?>
                     </h2>
-                    <form action="#" method="POST" style="display: flex; flex-direction: column; gap: var(--stack-sm);">
+                    <form action="send-mail.php" method="POST" style="display: flex; flex-direction: column; gap: var(--stack-sm);">
                         <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--stack-sm);">
                             <div>
                                 <label for="name" class="label" style="display: block; margin-bottom: 8px; font-size: 11px;">
