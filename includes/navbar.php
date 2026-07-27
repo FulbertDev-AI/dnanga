@@ -19,7 +19,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li><a href="index.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>"><?php echo $t['nav_home']; ?></a></li>
                 <li><a href="projects.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'projects.php') ? 'active' : ''; ?>"><?php echo $t['nav_projects']; ?></a></li>
                 <li><a href="experience.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'experience.php') ? 'active' : ''; ?>"><?php echo $t['nav_experience']; ?></a></li>
-                <li><a href="blog.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'blog.php') ? 'active' : ''; ?>"><?php echo $t['nav_blog']; ?></a></li>
+                <!-- <li><a href="blog.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'blog.php') ? 'active' : ''; ?>"><?php echo $t['nav_blog']; ?></a></li> -->
                 <li><a href="certifications.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'certifications.php') ? 'active' : ''; ?>"><?php echo $t['nav_certifications']; ?></a></li>
                 <li><a href="contact.php?lang=<?php echo $current_lang; ?>" class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>"><?php echo $t['nav_contact']; ?></a></li>
             </ul>
