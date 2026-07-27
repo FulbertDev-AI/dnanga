@@ -15,7 +15,7 @@
                     <li><a href="index.php" class="nav-link"><?php echo $t['nav_home']; ?></a></li>
                     <li><a href="projects.php" class="nav-link"><?php echo $t['nav_projects']; ?></a></li>
                     <li><a href="experience.php" class="nav-link"><?php echo $t['nav_experience']; ?></a></li>
-                    <li><a href="blog.php" class="nav-link"><?php echo $t['nav_blog']; ?></a></li>
+                    <!-- <li><a href="blog.php" class="nav-link"><?php echo $t['nav_blog']; ?></a></li> -->
                     <li><a href="certifications.php" class="nav-link"><?php echo $t['nav_certifications']; ?></a></li>
                     <li><a href="contact.php" class="nav-link"><?php echo $t['nav_contact']; ?></a></li>
                 </ul>
