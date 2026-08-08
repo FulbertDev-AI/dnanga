@@ -324,7 +324,7 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: 12px; font-size: 19px;"><?php echo $t['project_3_title']; ?></h3>
                         <p style="margin-bottom: 16px; color: var(--on-surface-variant); font-size: 14px; line-height: 1.5;"><?php echo $t['project_3_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
+                        <a href="https://zitro-docs.wasmer.app/" target="_blank" class="btn btn-secondary" style="width: 100%; font-size: 14px; padding: 10px 16px;">
                             <?php echo $t['project_3_cta']; ?>
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </a>

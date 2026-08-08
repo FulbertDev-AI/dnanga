@@ -86,7 +86,7 @@ include 'includes/navbar.php';
                         </div>
                         <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_3_title']; ?></h3>
                         <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_3_desc']; ?></p>
-                        <a href="#" class="btn btn-secondary" style="width: 100%;">
+                        <a href="https://zitro-docs.wasmer.app/" target="_blank" class="btn btn-secondary" style="width: 100%;">
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
