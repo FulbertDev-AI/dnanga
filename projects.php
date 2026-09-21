@@ -202,10 +202,50 @@ include 'includes/navbar.php';
                             <?php echo $t['view_project']; ?>
                         </a>
                     </div>
-                </div> -->
+                </div>
                 
             </div>
             
+            <!-- Projet 10 -->
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
+                        <img src="images/Coloc.png" 
+                            alt="COLOCLOME" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                            <?php echo $t['project_10_tags']; ?>
+                        </div>
+                        <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_10_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_10_desc']; ?></p>
+                        <a href="https://github.com/FulbertDev-AI/COLOC-LOME.git" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                            <?php echo $t['view_project']; ?>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Projet 11 -->
+                <div class="glass-card project-card" data-category="infrastructure" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 200px; overflow: hidden; background: var(--surface-container);">
+                        <img src="images/Kofry.png" 
+                            alt="Kofry" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: var(--stack-sm);">
+                            <?php echo $t['project_11_tags']; ?>
+                        </div>
+                        <h3 style="margin-bottom: var(--stack-sm); font-size: 20px;"><?php echo $t['project_11_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1;"><?php echo $t['project_11_desc']; ?></p>
+                        <a href="https://kofry.wasmer.app/" target="_blank" class="btn btn-secondary" style="width: 100%;">
+                            <?php echo $t['view_project']; ?>
+                        </a>
+                    </div>
+                </div>
+
+</div>
             <!-- Bannière de collaboration -->
             <div class="collaboration-banner" style="margin-top: var(--stack-lg);">
                 <div style="text-align: center; padding: var(--stack-lg) var(--stack-md);">

@@ -60,8 +60,34 @@ include 'includes/navbar.php';
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Cert 2 -->
+                <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
+                        <img src="images/GSP.jpeg" 
+                            alt="Vice-lead TCC" 
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+                    </div>
+                    <div style="padding: var(--stack-md); flex: 1; display: flex; flex-direction: column;">
+                        <h3 style="margin-bottom: 12px; font-size: 18px;"><?php echo $t['cert_10_title']; ?></h3>
+                        <p style="margin-bottom: var(--stack-md); flex: 1; font-size: 14px; color: var(--on-surface-variant);"><?php echo $t['cert_10_desc']; ?></p>
+                        <div style="border-top: 1px solid var(--outline-variant); padding-top: var(--stack-sm);">
+                            <p class="label" style="color: var(--secondary); margin-bottom: 12px; font-size: 11px;"><?php echo $t['key_takeaways']; ?></p>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span><?php echo $t['cert_10_takeaway_1']; ?></span>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span><?php echo $t['cert_10_takeaway_2']; ?></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cert 3 -->
                 <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
                         <img src="images/Apprenez la Programmation Orientée Objet avec Python.png" 
@@ -87,7 +113,7 @@ include 'includes/navbar.php';
                     </div>
                 </div>
                 
-                <!-- Cert 3 -->
+                <!-- Cert 4 -->
                 <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
                         <img src="images/gx-africa.png" 
@@ -112,7 +138,7 @@ include 'includes/navbar.php';
                         </div>
                     </div>
                 </div>
-                <!-- Cert 4 -->
+                <!-- Cert 5 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/html5-css3.png" 
@@ -138,7 +164,7 @@ include 'includes/navbar.php';
         </div>
     </div>
 
-     <!-- Cert 5 -->
+     <!-- Cert 6 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/css-sass.png" 
@@ -164,7 +190,7 @@ include 'includes/navbar.php';
         </div>
     </div>
 
-    <!-- Cert 6 -->
+    <!-- Cert 7 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/CSS, Bootstrap And JavaScript And Python Stack Course.png" 
@@ -190,7 +216,7 @@ include 'includes/navbar.php';
         </div>
     </div>
 
-    <!-- Cert 7 -->
+    <!-- Cert 8 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/React.png" 
@@ -216,7 +242,7 @@ include 'includes/navbar.php';
         </div>
     </div>
 
-    <!-- Cert 8 -->
+    <!-- Cert 9 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/tcp-ip.png" 
@@ -242,7 +268,7 @@ include 'includes/navbar.php';
         </div>
     </div>
 
-    <!-- Cert 9 -->
+    <!-- Cert 10 -->
     <div class="glass-card cert-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
         <div style="width: 100%; height: 180px; overflow: hidden; background: var(--surface-container);">
             <img src="images/Maîtrisez les fondamentaux d'Excel.png" 
