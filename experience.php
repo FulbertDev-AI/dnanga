@@ -141,6 +141,97 @@ include 'includes/navbar.php';
                         </div>
                     </div>
                 </div>
+
+                <!-- Expérience 7 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_7_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_7_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_7_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_7_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_7_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience 8 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_8_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_8_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_8_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_8_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_8_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience 9 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_9_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_9_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_9_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_9_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_9_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience 10 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_10_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_10_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_10_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_10_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_10_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience 11 : Volunteer -->
+                <div class="glass-card exp-card" data-category="volunteer" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
+                        <div class="chip" style="margin-bottom: 12px; display: inline-block; font-size: 12px; width: fit-content; background: rgba(78, 222, 163, 0.15); color: var(--secondary);">
+                            <?php echo $t['exp_11_period']; ?>
+                        </div>
+                        <h3 style="color: var(--secondary); margin-bottom: 8px; font-size: 20px;"><?php echo $t['exp_11_role']; ?></h3>
+                        <p style="font-weight: 600; margin-bottom: 16px; font-size: 15px; color: var(--on-background);"><?php echo $t['exp_11_company']; ?></p>
+                        <p style="margin-bottom: 16px; font-size: 14px; color: var(--on-surface-variant); line-height: 1.6; flex: 1;"><?php echo $t['exp_11_desc']; ?></p>
+                        <div class="achievements" style="border-top: 1px solid var(--outline-variant); padding-top: 16px;">
+                            <p class="text-sm" style="color: var(--on-surface-variant); font-size: 13px; line-height: 1.6;">
+                                <strong style="color: var(--secondary); display: block; margin-bottom: 8px;">Key Achievements:</strong>
+                                <?php echo $t['exp_11_achievements']; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             
             <!-- Bannière de durabilité -->

@@ -180,6 +180,35 @@ $translations = [
         'exp_6_company' => 'Miabe Hackathon',
         'exp_6_desc' => 'Promotion of the MIABE HACKATHON student technology hackathon. Organization of outreach sessions and presentations to mobilize students around digital innovation and the creation of local technological solutions.',
         'exp_6_achievements' => 'Raised awareness among ESA students and coordinated participation in the selection phases.',
+        'exp_7_period' => '',
+        'exp_7_role' => 'GX Africa Fellow',
+        'exp_7_company' => '',
+        'exp_7_desc' => '',
+        'exp_7_achievements' => '',
+
+        'exp_8_period' => '2025',
+        'exp_8_role' => 'Formateur en Robotique à Wahala',
+        'exp_8_company' => 'CITIL',
+        'exp_8_desc' => '',
+        'exp_8_achievements' => '',
+
+        'exp_9_period' => '2026',
+        'exp_9_role' => 'Formateur en Intelligence Artificielle et IoT à Kpalimé',
+        'exp_9_company' => 'CITIL',
+        'exp_9_desc' => '',
+        'exp_9_achievements' => '',
+
+        'exp_10_period' => '2026',
+        'exp_10_role' => 'Bénévole à l\'organisation de TDEV Festival',
+        'exp_10_company' => 'TDEV Festival',
+        'exp_10_desc' => '',
+        'exp_10_achievements' => '',
+
+        'exp_11_period' => '',
+        'exp_11_role' => 'Formateur en Modélisation & Impression 3D',
+        'exp_11_company' => 'CITIL',
+        'exp_11_desc' => '',
+        'exp_11_achievements' => '',
         
         // Blog Page
         'blog_coming_soon_desc' => 'Something amazing is being built here. While we craft the perfect articles, have fun squashing some bugs!',
